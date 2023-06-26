@@ -1,4 +1,4 @@
-#This repository has answers to tasks covering the following topics:
+# This repository has answers to tasks covering the following topics:
 
 - ES6
 - New features introduced in ES6
@@ -10,11 +10,12 @@
 - Object creation and their properties in ES6
 - Iterators and for-of loops
 
-# The following are the questions
+## The following are the questions
 
 0. Modify
 
 function taskFirst to instantiate variables using const
+
 function taskNext to instantiate variables using let
 
 1. Given what you’ve read about var and hoisting, modify the variables inside the function taskBlock so that the variables aren’t overwritten inside the conditional block.
