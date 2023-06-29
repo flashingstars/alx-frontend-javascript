@@ -46,7 +46,7 @@ Implement a class named __Pricing__:
 		* currency (Currency)
 	- Each attribute must be stored in an “underscore” attribute version (ex: name is stored in \_name)
 	- Implement a getter and setter for each attribute.
-	- Implement a method named displayFullPrice that returns the attributes in the following format amount currency_name (currency_code).
+	- Implement a method named displayFullPrice that returns the attributes in the following format amount currency\_name (currency\_code).
 	- Implement a static method named convertPrice. It should accept two arguments: amount (Number), conversionRate (Number). The function should return the amount multiplied by the conversion rate.
 
 5. Implement a class __named Building__:
@@ -67,7 +67,7 @@ Implement a class named __SkyHighBuilding__ that extends from __Building__:
 		* floors (Number)
 	- Each attribute must be stored in an “underscore” attribute version (ex: name is stored in \_name)
 	- Implement a getter for each attribute.
-	- Override the method named evacuationWarningMessage and return the following string Evacuate slowly the _NUMBER_OF_FLOORS_ floors.
+	- Override the method named evacuationWarningMessage and return the following string Evacuate slowly the NUMBER\_OF\_FLOORS floors.
 
 7. Implement a class named __Airport__:
 
@@ -82,7 +82,7 @@ Implement a class named __SkyHighBuilding__ that extends from __Building__:
 	- Constructor attributes:
 		* size (Number)
 		* location (String)
-	- Each attribute must be stored in an “underscore” attribute version (ex: name is stored in _name)
+	- Each attribute must be stored in an “underscore” attribute version (ex: name is stored in \_name)
 	- When the class is cast into a Number, it should return the size.
 	- When the class is cast into a String, it should return the location.
 
