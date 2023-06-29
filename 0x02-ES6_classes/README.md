@@ -39,7 +39,7 @@
 
 4. Import the class __Currency__ from __3-currency.js__
 
-Implement a class named __Pricing__:
+	* Implement a class named __Pricing__:
 
 	- Constructor attributes:
 		* amount (Number)
@@ -60,7 +60,7 @@ Implement a class named __Pricing__:
 
 6. Import __Building__ from __5-building.js__.
 
-Implement a class named __SkyHighBuilding__ that extends from __Building__:
+	* Implement a class named __SkyHighBuilding__ that extends from __Building__:
 
 	- Constructor attributes:
 		* sqft (Number) (must be assigned to the parent class Building)
