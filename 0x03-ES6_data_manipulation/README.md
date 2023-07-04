@@ -11,7 +11,7 @@
 
 0. Create a function named __getListStudents__ that returns an array of objects.
 
-Each object should have three attributes: __id__ (Number), __firstName__ (String), and __location_ (String).
+Each object should have three attributes: __id__ (Number), __firstName__ (String), and __location__ (String).
 
 The array contains the following students in order:
 
@@ -102,7 +102,5 @@ It should accept a map as an argument. The map it accepts for argument is simila
 
 For each entry of the map where the quantity is 1, update the quantity to 100. If updating the quantity is not possible (argument is not a map) the error __Cannot process__ should be thrown.
 
-- *
-
-The  code will be tested using jest and the command npm run test.
-The code will be verified using ESLint.
+- * The  code will be tested using jest and the command npm run test.
+- * The code will be verified using ESLint.
