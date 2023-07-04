@@ -14,11 +14,11 @@
 Each object should have three attributes: __id__ (Number), __firstName__ (String), and __location__ (String).
 
 The array contains the following students in order:
-
+``` plaintext
 	- __Guillaume__, id: __1__, in __San Francisco__
 	- __James__, id: __2__, in __Columbia__
 	- __Serena__, id: __5__, in __San Francisco__
-
+```
 1. Create a function __getListStudentIds__ that returns an array of ids from a list of object.
 
 This function is taking one argument which is an array of objects - and this array is the same format as __getListStudents__ from the previous task.
